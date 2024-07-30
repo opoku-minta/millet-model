@@ -1,6 +1,7 @@
 import os
 import json
 import logging
+import tensorflow as tf
 from PIL import Image
 from flask_cors import CORS
 from flask_restful import Api
@@ -8,7 +9,8 @@ from keras.models import load_model
 from numpy import argmax, expand_dims
 from flask import Flask, request,flash
 from flasgger import Swagger, swag_from
-from keras.preprocessing.image import image
+from keras.utils import load_img, img_to_array
+# from keras.preprocessing.image import image
 
 
 UPLOAD_FOLDER = 'uploads'
