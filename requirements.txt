@@ -1,0 +1,9 @@
+numpy
+keras
+flask
+pillow
+flasgger
+flask_cors
+flask-restful
+tensorflow
+gunicorn
