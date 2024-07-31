@@ -8,7 +8,9 @@ from keras.models import load_model
 from numpy import argmax, expand_dims
 from flask import Flask, request,flash
 from flasgger import Swagger, swag_from
-from keras.preprocessing.image import image
+from tensorflow.keras.preprocessing.image import load_img, img_to_array
+# from keras.preprocessing.image import image
+
 
 
 UPLOAD_FOLDER = 'uploads'
