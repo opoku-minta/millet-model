@@ -7,5 +7,4 @@ flask_cors
 flask-restful
 tensorflow
 gunicorn
-opencv-python
-streamlit
+
