@@ -8,3 +8,4 @@ flask-restful
 tensorflow
 gunicorn
 opencv-python
+streamlit
